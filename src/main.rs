@@ -1,5 +1,4 @@
 use std::sync::Arc;
-
 use dashmap::DashMap;
 
 pub mod adapters;
