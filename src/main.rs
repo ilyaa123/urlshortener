@@ -11,6 +11,7 @@ pub mod ports;
 #[tokio::main]
 async fn main() {
     let store = Arc::new(DashMap::new());
+
     let in_memory_repository = adapters::inmemory::InMemoryRepository::new(store);
 
     let idp = id_provider::NanoIDProvider;
