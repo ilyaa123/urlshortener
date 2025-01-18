@@ -6,6 +6,7 @@ pub mod app;
 pub mod id_provider;
 pub mod di;
 pub mod ports;
+pub mod error;
 
 #[tokio::main]
 async fn main() {
